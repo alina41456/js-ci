@@ -1,0 +1,11 @@
+{
+  "name": "js-ci-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node tests/sum.test.js",
+    "lint": "eslint app/*.js tests/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
